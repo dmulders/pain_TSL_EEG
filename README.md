@@ -41,6 +41,7 @@ All codes are written in Matlab and were ran using Matlab R2019b.
     - TSL_plot_IO_fit.m: reloads useful data and displays the model fitting. Data must have been saved by running TSL_analyze_EEG.m with IO_fit_opt = 1 beforehand.  
 
 * To perform the parameter recovery analysis
+    - start by running add_paths_recov.m to add the required folders to the Matlab path
     - simulate_behavior.m: simulates behavior using a range of parameters consistent with the ones observed in the original data set. 
     - fit_simulated_data.m: computes the quality of fit on data simulated in simulate_behavior.m.
     - disp_param_recovery.m: plots the outcomes of the parameter recovery analysis. 
