@@ -12,7 +12,7 @@ addpath(genpath('./Colormaps')) ;
 
 % minimal TP model, from https://github.com/florentmeyniel/MinimalTransitionProbsModel, 
 % with some updates to test variants of the initial models (with different priors, learning AF, ...)
-addpath(genpath('./MinimalTransitionProbsModel')) ; 
+addpath(genpath('./IdealObserversCode')) ; 
 
 % solve low resolution on plot
 set(0, 'DefaultFigureRenderer', 'painters') ;
