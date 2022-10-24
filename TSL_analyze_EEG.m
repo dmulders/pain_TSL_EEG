@@ -23,7 +23,7 @@ reject_usual    = 0 ;       % reject usual epochs based on signal with LP30 >80
 save_avg_eeg    = 0 ;       % save the avg EEG per condition, per param, 
                             % and merging all conditions
 save_AUC_VW     = 0 ;       % AUC of N2 and P2 + amplitudes of N2/P2 peaks
-save_avg_TF     = 1 ;       % save TF avg across epochs and pre-alpha power (return after that)
+save_avg_TF     = 0 ;       % save TF avg across epochs and pre-alpha power (return after that)
 if save_avg_TF; LP_filter = 0 ; max_ampl_rej = 150 ; end
 save_EEG_model  = 0 ;       % save all the EEG and regressors info necessary to fit linear models
 moving_avg      = 0 ;       % moving avg on each EEG *trial*
@@ -54,7 +54,7 @@ rconf_BMC       = 1 ;       % rconf or conf for BMC (IO_fit_opt=2)
 TF_regress      = 0 ;       % do the IO regressions on the TF data
                             % only for IO_fit_opt = 1. 
 use_stft        = 1 ;       % otherwise: cwt
-win_width_sec   = 0.2 ;     % seconds (if use_stft)
+win_width_sec   = 0.1 ;     % seconds (if use_stft)
                             % 0.3: 6 oscillations at 20Hz
 stft_with_conv = 1 ;        % if use_stft % 5 oscillations @70Hz = 0.07sec
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
