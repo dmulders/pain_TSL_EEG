@@ -44,7 +44,7 @@ All codes are written in Matlab and were ran using Matlab R2019b.
     - start by running add_paths_recov.m to add the required folders to the Matlab path
     - simulate_behavior.m: simulates behavior using a range of parameters consistent with the ones observed in the original data set. 
     - fit_simulated_data.m: computes the quality of fit on data simulated in simulate_behavior.m.
-    - disp_param_recovery.m: plots the outcomes of the parameter recovery analysis. 
+    - disp_param_recovery.m: plots the outcomes of the parameter recovery analysis. The data saved in /data_simu/ enables producing the figures without re-computing the simulations. 
 
 ## Contact
 
