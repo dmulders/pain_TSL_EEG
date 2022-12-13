@@ -12,7 +12,7 @@ Associated article [preprint](https://doi.org/10.1101/2022.08.11.503296)
 
 ## Description
 
-This project provides the codes written to analyze the collected data of the above article and produce all figures shown in the manuscript. 
+This project provides the codes written to analyze the data of the above article and produce all figures shown in the manuscript. 
 
 The folder /TSL_experiments/ contains the codes to generate and deliver the sequences of stimuli. 
 
