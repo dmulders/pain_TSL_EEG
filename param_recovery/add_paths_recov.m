@@ -4,7 +4,7 @@
 % useful functions to do the scalp plots
 addpath(genpath('../Colormaps')) ; 
 
-addpath(genpath('../MinimalTransitionProbsModel')) ; 
+addpath(genpath('../IdealObserversCode')) ; 
 
 % Low resolution on plot
 set(0, 'DefaultFigureRenderer', 'painters') ;
