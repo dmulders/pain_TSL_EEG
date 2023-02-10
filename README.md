@@ -24,6 +24,8 @@ Associated data are available on an [OSF repository](https://osf.io/8xvtg/).
 
 All codes are written in Matlab and were ran using Matlab R2019b.
 
+The codes for the Bayesian models were written by [Florent Meyniel](https://github.com/florentmeyniel/MinimalTransitionProbsModel). They are provided in this repository in /IdealObserversCode/ with some updates to test variants of the initial models (with different priors, learning AF, ...). 
+
 * To collect data and run experiments in the lab, you need 
     - a stimulator and DAQ device 
     - Matlab with the DAQ and [Psychtoolbox](http://psychtoolbox.org/)
