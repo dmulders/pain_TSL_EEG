@@ -2,7 +2,7 @@
 
 Dounia Mulders, Ben Seymour, André, Mouraux, Flavia Mancini
 
-Article in press in PNAS. 
+Article published in [PNAS](https://www.pnas.org/doi/10.1073/pnas.2212252120). 
 
 Associated [preprint](https://doi.org/10.1101/2022.08.11.503296)
 
